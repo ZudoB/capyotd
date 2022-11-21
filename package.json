@@ -1,0 +1,11 @@
+{
+  "name": "capyotd",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "masto": "^4.6.6",
+    "node-fetch": "^3.3.0"
+  }
+}
