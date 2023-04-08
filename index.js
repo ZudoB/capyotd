@@ -17,7 +17,7 @@ function saveFile(url) {
 
 const client = await login({url: process.env.MASTODON_URI, accessToken: process.env.MASTODON_TOKEN} );
 
-const capyResult = await fetch("https://capy.life/api/");
+const capyResult = await fetch("https://api.capy.life/");
 
 if (!capyResult.ok) process.exit();
 
